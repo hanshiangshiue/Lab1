@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/singledigit_dec_adder_lab1/singledigit_dec_adder_lab1_test_isim_beh.exe" -prj "D:/singledigit_dec_adder_lab1/singledigit_dec_adder_lab1_test_beh.prj" "work.singledigit_dec_adder_lab1_test" "work.glbl" 

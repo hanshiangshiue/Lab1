@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/singledigit_dec_adder_lab1/singledigit_dec_adder_lab1.xst" -ofn "D:/singledigit_dec_adder_lab1/singledigit_dec_adder_lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 singledigit_dec_adder_lab1.ngc singledigit_dec_adder_lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o singledigit_dec_adder_lab1_map.ncd singledigit_dec_adder_lab1.ngd singledigit_dec_adder_lab1.pcf 
+par -w -intstyle ise -ol high -mt off singledigit_dec_adder_lab1_map.ncd singledigit_dec_adder_lab1.ncd singledigit_dec_adder_lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml singledigit_dec_adder_lab1.twx singledigit_dec_adder_lab1.ncd -o singledigit_dec_adder_lab1.twr singledigit_dec_adder_lab1.pcf 
+bitgen -intstyle ise -f singledigit_dec_adder_lab1.ut singledigit_dec_adder_lab1.ncd 

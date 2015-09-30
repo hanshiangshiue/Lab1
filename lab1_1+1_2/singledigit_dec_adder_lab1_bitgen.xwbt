@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\singledigit_dec_adder_lab1\singledigit_dec_adder_lab1.ncd
+OUTFILE=D:\singledigit_dec_adder_lab1\singledigit_dec_adder_lab1.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\singledigit_dec_adder_lab1
+LICENSE=WebPack
+USER_INFO=210913348_0_0_143

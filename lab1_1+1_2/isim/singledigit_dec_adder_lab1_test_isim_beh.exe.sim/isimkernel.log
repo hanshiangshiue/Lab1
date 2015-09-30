@@ -1,0 +1,29 @@
+Command line:
+   singledigit_dec_adder_lab1_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49576
+
+Mon Aug 17 18:29:42 2015
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 658.711 Meg
+
+ Total Signals          : 18
+ Total Nets             : 27
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 126
+Total Line Count : 46
+
+ Total Simulation Time: 0.0936 sec
+
+ Current Memory Usage: 659.759 Meg
+
+Mon Aug 17 18:32:19 2015
+
