@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/decoder2to4/decoder2to4_test_isim_beh.exe" -prj "D:/decoder2to4/decoder2to4_test_beh.prj" "work.decoder2to4_test" "work.glbl" 

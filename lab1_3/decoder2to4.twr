@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml decoder2to4.twx decoder2to4.ncd -o decoder2to4.twr
+decoder2to4.pcf
+
+Design file:              decoder2to4.ncd
+Physical constraint file: decoder2to4.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+en             |d<0>           |    6.514|
+en             |d<1>           |    6.460|
+en             |d<2>           |    6.795|
+en             |d<3>           |    6.429|
+in<0>          |d<0>           |    6.300|
+in<0>          |d<1>           |    6.246|
+in<0>          |d<2>           |    6.629|
+in<0>          |d<3>           |    6.263|
+in<1>          |d<0>           |    6.345|
+in<1>          |d<1>           |    6.291|
+in<1>          |d<2>           |    6.516|
+in<1>          |d<3>           |    6.150|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Aug 17 14:08:16 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 150 MB
+
+
+

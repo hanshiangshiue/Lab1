@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/decoder2to4/decoder2to4_test_isim_beh.exe -prj D:/decoder2to4/decoder2to4_test_beh.prj work.decoder2to4_test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/decoder2to4/decoder2to4.v" into library work
+WARNING:HDLCompiler:751 - "D:/decoder2to4/decoder2to4.v" Line 27: Redeclaration of ansi port d is not allowed
+Analyzing Verilog file "D:/decoder2to4/decoder2to4_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 104724 KB
+Fuse CPU Usage: 218 ms
+Compiling module decoder2to4
+Compiling module decoder2to4_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable D:/decoder2to4/decoder2to4_test_isim_beh.exe
+Fuse Memory Usage: 109316 KB
+Fuse CPU Usage: 218 ms
